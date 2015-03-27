@@ -1,4 +1,4 @@
-FROM buildpack-deps:sid-scm
+FROM registry.docker/buildpack-deps:sid-scm
 
 # A few problems with compiling Java from source:
 #  1. Oracle.  Licensing prevents us from redistributing the official JDK.
